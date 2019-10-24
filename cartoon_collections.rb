@@ -1,4 +1,5 @@
 
+
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index do |dwarf, index|
     puts "#{index + 1}. #{dwarf}"
@@ -19,3 +20,4 @@ def find_the_cheese(potential_cheese)
     cheese_types.include?(maybe_cheese)
   end
 end
+
